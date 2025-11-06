@@ -16,10 +16,10 @@ The program demonstrates how OOP principles like **encapsulation** and **abstrac
 ```bash
 
 ├── .oop_lab2/
-│
-├── README.md
-├── Cities.csv
-└── data_processing.py
+         │
+         ├── README.md
+         ├── Cities.csv
+         └── data_processing.py
 ```
 
 ## Design Overview
