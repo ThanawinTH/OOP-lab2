@@ -5,8 +5,8 @@
 This lab focuses on refactoring procedural-style data processing code into an **object-oriented design**.  
 It introduces two main classes:
 
-- `DataLoader` 
-- `Table` 
+- `DataLoader`
+- `Table`
 
 The program demonstrates how OOP principles like **encapsulation** and **abstraction** can simplify real-world data analysis workflows.
 
@@ -14,12 +14,13 @@ The program demonstrates how OOP principles like **encapsulation** and **abstrac
 
 ## Project Structure
 
+'''
 oop_lab2/
 │
-├── README.md 
-├── Cities.csv 
-└── data_processing.py 
-
+├── README.md
+├── Cities.csv
+└── data_processing.py
+'''
 ## Design Overview
 
 ### `DataLoader` Class
