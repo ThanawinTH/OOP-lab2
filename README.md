@@ -1,12 +1,12 @@
-# OOP Lab 1-2: Data Analysis with Classeshttps://github.com/ThanawinTH/OOP-lab2/tree/main
+# OOP Lab 1-2: Data Analysis with Classes
 
 ## Lab Overview
 
 This lab focuses on refactoring procedural-style data processing code into an **object-oriented design**.  
 It introduces two main classes:
 
-- `DataLoader` – Responsible for reading and loading CSV data.
-- `Table` – Represents a dataset and provides methods for filtering and aggregating data.
+- `DataLoader` 
+- `Table` 
 
 The program demonstrates how OOP principles like **encapsulation** and **abstraction** can simplify real-world data analysis workflows.
 
@@ -16,14 +16,9 @@ The program demonstrates how OOP principles like **encapsulation** and **abstrac
 
 oop_lab2/
 │
-├── README.md # This file
-├── Cities.csv # The dataset
-└── data_processing.py # The analysis and class definitions
-
-yaml
-Copy code
-
----
+├── README.md 
+├── Cities.csv 
+└── data_processing.py 
 
 ## Design Overview
 
