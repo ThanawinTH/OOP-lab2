@@ -4,17 +4,14 @@ from pathlib import Path
 
 
 class DataLoader:
-    """Handles loading CSV data files."""
 
     def __init__(self, base_path=None):
-        """Initialize the DataLoader with a base path for data files."""
         if base_path is None:
             self.base_path = Path(__file__).parent.resolve()
         else:
             self.base_path = Path(base_path)
 
     def load_csv(self, filename):
-        """Load a CSV file and return its contents as a list of dictionaries."""
         filepath = self.base_path / filename
         data = []
 
@@ -27,10 +24,8 @@ class DataLoader:
 
 
 class Table:
-    """Represents a table of data and provides filtering and aggregation operations."""
 
     def __init__(self, name, data):
-        """Initialize the Table with a name and a list of dictionaries."""
         self.name = name
         self.table = data  # list of dictionaries
 
@@ -40,13 +35,11 @@ class Table:
         return Table(self.name, filtered_data)
 
     def aggregate(self, agg_func, column):
-        """Apply an aggregation function (e.g., sum, average, max) to a given column."""
         values = [float(row[column])
                   for row in self.table if row[column] != '']
         return agg_func(values)
 
 
-# ---- TEST CODE ----
 loader = DataLoader()
 cities = loader.load_csv('Cities.csv')
 my_table1 = Table('cities', cities)
