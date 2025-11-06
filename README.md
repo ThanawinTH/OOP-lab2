@@ -14,13 +14,14 @@ The program demonstrates how OOP principles like **encapsulation** and **abstrac
 
 ## Project Structure
 
-'''
-oop_lab2/
+'''bash
+├── .oop_lab2/
 │
 ├── README.md
 ├── Cities.csv
 └── data_processing.py
 '''
+
 ## Design Overview
 
 ### `DataLoader` Class
